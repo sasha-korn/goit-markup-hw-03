@@ -333,7 +333,8 @@ footer .logo {
 }
 
 .features-sub-title,
-.team-name {
+.team-name,
+.portfolio {
   margin-bottom: 8px;
 }
 
@@ -343,10 +344,6 @@ footer .logo {
   display: none;
 }
 
-.portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
 
 .portfolio-btn {
   background-color: var(--secondary-body-color);
