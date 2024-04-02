@@ -267,7 +267,8 @@ footer .logo {
 /* section what we are doin (our work) */
 
 .work-title,
-.team-title {
+.team-title,
+.portfolio-title {
   text-transform: capitalize;
   color: var(--headers-color);
   font-size: 36px;
@@ -328,13 +329,13 @@ footer .logo {
 }
 
 .features,
-.team {
+.team,
+.portfolio {
   padding: 120px 0;
 }
 
 .features-sub-title,
-.team-name,
-.portfolio {
+.team-name {
   margin-bottom: 8px;
 }
 
@@ -344,6 +345,26 @@ footer .logo {
   display: none;
 }
 
+.list {display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+
+}
+
+.list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portf-wrapper {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+}
+
+.titel-works {
+  margin-bottom: 8px;
+}
 
 .portfolio-btn {
   background-color: var(--secondary-body-color);
